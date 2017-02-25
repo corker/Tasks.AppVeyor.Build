@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.AppVeyor.Build", "Tasks.AppVeyor.Build\Tasks.AppVeyor.Build.csproj", "{A37EBC89-F1FB-4F44-9009-B7AB19626240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.AppVeyor.Build.Specs.UnitTests", "Tasks.AppVeyor.Build.Specs.UnitTests\Tasks.AppVeyor.Build.Specs.UnitTests.csproj", "{49CABC19-A9BD-47B0-B370-2D040EFEBCB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37EBC89-F1FB-4F44-9009-B7AB19626240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37EBC89-F1FB-4F44-9009-B7AB19626240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37EBC89-F1FB-4F44-9009-B7AB19626240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37EBC89-F1FB-4F44-9009-B7AB19626240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CABC19-A9BD-47B0-B370-2D040EFEBCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CABC19-A9BD-47B0-B370-2D040EFEBCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CABC19-A9BD-47B0-B370-2D040EFEBCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CABC19-A9BD-47B0-B370-2D040EFEBCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
